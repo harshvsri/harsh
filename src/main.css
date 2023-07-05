@@ -1,8 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap");
 
+:root {
+  --sectionPadding: 2rem 1rem;
+  --dark: #212529;
+  --light: #f8f9fa;
+}
+
 * {
-  margin: 0;
-  padding: 0;
+  /* margin: 0;
+  padding: 0; */
   font-family: "Ubuntu Condensed", sans-serif;
 }
 
@@ -12,7 +18,8 @@
   justify-content: center;
   align-items: center;
   text-align: left;
-  padding: 3rem 1rem;
+
+  padding: var(--sectionPadding);
 
   background-color: #212529;
   color: #f8f9fa;
@@ -24,10 +31,10 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 3rem 1rem;
 
-  color: #212529;
-  background-color: #f8f9fa;
+  padding: var(--sectionPadding);
+
+  background-color: var(--light);
 }
 .skill iconify-icon {
   font-size: 3rem;
@@ -41,7 +48,7 @@
   flex-wrap: wrap;
 
   text-align: center;
-  padding: 3rem 1rem;
+  padding: var(--sectionPadding);
 }
 .card {
   margin: 1rem;
@@ -61,13 +68,32 @@
   justify-content: center;
   align-items: center;
   text-align: left;
-  padding: 3rem 1rem;
+  padding: var(--sectionPadding);
 
-  background-color: #212529;
-  color: #f8f9fa;
+  background-color: var(--dark);
+  color: var(--light);
 }
 
+.contact {
+  padding: 2rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding-bottom: 1rem;
+}
 footer iconify-icon {
   font-size: 2rem;
-  margin: 0.5rem;
+}
+.social-links {
+  display: flex;
+  margin: 0;
+  padding: 0.5rem;
+}
+.social-link {
+  padding: 0 0.5rem;
 }

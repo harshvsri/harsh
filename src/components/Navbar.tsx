@@ -1,7 +1,8 @@
 function Navbar() {
+  const navItems = ["Skill", "Work", "About", "Contact"];
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             PORTFOLIO.
@@ -19,28 +20,14 @@ function Navbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item">
-                <a className="nav-link" href="#skill">
-                  Skill
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Work
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  About
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Contact
-                </a>
-              </li>
+              {navItems.map((item, index) => (
+                <li key={index} className="nav-item">
+                  <a className="nav-link" href={`#${item.toLowerCase()}`}>
+                    {item}
+                  </a>
+                </li>
+              ))}
             </ul>
-
             <button className="btn btn-outline-success" type="button">
               Resume
             </button>
