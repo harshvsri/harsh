@@ -6,7 +6,7 @@
   font-family: "Ubuntu Condensed", sans-serif;
 }
 
-.about {
+.home {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -29,7 +29,7 @@
   color: #212529;
   background-color: #f8f9fa;
 }
-iconify-icon {
+.skill iconify-icon {
   font-size: 3rem;
   margin: 1rem;
 }
@@ -53,4 +53,21 @@ iconify-icon {
 .card-buttons {
   display: flex;
   justify-content: space-evenly;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  padding: 3rem 1rem;
+
+  background-color: #212529;
+  color: #f8f9fa;
+}
+
+footer iconify-icon {
+  font-size: 2rem;
+  margin: 0.5rem;
 }

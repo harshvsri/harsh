@@ -1,8 +1,11 @@
 function Skill() {
   return (
     <>
-      <div className="skill">
+      <div id="skill" className="skill">
         <div>
+          <h2 className="cursive">
+            <strong>My Skills</strong>
+          </h2>
           <div>
             <iconify-icon icon="simple-icons:html5"></iconify-icon>
             <iconify-icon icon="simple-icons:css3"></iconify-icon>
