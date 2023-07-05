@@ -2,14 +2,19 @@
 
 :root {
   --sectionPadding: 2rem 1rem;
+  --sectionMargin: 1rem;
   --dark: #212529;
-  --light: #fff;
+  --light: #f8f9fa;
 }
 
 * {
   margin: 0;
   padding: 0;
   font-family: "Ubuntu Condensed", sans-serif;
+}
+
+body {
+  background-color: var(--light);
 }
 
 .home {
@@ -19,7 +24,7 @@
   align-items: center;
   text-align: left;
 
-  margin: 1rem;
+  margin: var(--sectionMargin);
   border-radius: 1rem;
   padding: var(--sectionPadding);
 
@@ -34,8 +39,10 @@
   align-items: center;
   text-align: center;
 
+  margin: var(--sectionMargin);
+  border-radius: 1rem;
+  border: 1px solid none;
   padding: var(--sectionPadding);
-
   background-color: var(--light);
 }
 .skill iconify-icon {
@@ -50,14 +57,17 @@
   flex-wrap: wrap;
 
   text-align: center;
+  margin: var(--sectionMargin);
   padding: var(--sectionPadding);
 }
 .card {
+  width: 18rem;
   margin: 1rem;
   border: 2px solid #212529;
   padding: 0.25rem;
   text-align: center;
   color: #212529;
+  background-color: var(--light);
 }
 .card-buttons {
   display: flex;
@@ -80,7 +90,10 @@
 }
 
 .contact {
-  padding: 2rem;
+  margin: var(--sectionMargin);
+  border: 1px solid none;
+  border-radius: 1rem;
+  padding: var(--sectionPadding);
 }
 
 footer {

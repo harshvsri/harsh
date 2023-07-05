@@ -1,49 +1,6 @@
-function Work() {
-  const projects = [
-    {
-      name: "Sketch Pad",
-      img: "/sketchpad.png",
-      about: "This is basic",
-      liveLink: "",
-      sourceCode: "",
-    },
-    {
-      name: "ShoeKart",
-      img: "/shoekart.png",
-      about: "This is basic game",
-      liveLink: "",
-      sourceCode: "",
-    },
-    {
-      name: "ShoeKart",
-      img: "/shoekart.png",
-      about: "This is basic game",
-      liveLink: "",
-      sourceCode: "",
-    },
-    {
-      name: "ShoeKart",
-      img: "/shoekart.png",
-      about: "This is basic game",
-      liveLink: "",
-      sourceCode: "",
-    },
-    {
-      name: "ShoeKart",
-      img: "/shoekart.png",
-      about: "This is basic game",
-      liveLink: "",
-      sourceCode: "",
-    },
-    {
-      name: "ShoeKart",
-      img: "/shoekart.png",
-      about: "This is basic game",
-      liveLink: "",
-      sourceCode: "",
-    },
-  ];
+import { projects } from "./Data";
 
+function Work() {
   return (
     <>
       <div className="work">

@@ -5,9 +5,6 @@ function Skill() {
     <>
       <div id="skill" className="skill">
         <div>
-          <h2>
-            <strong>Tech Stack</strong>
-          </h2>
           {skills.map((set) => (
             <div>
               {set.skillName.map((skill) => (

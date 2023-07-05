@@ -2,15 +2,15 @@ function Footer() {
   const socials = [
     {
       name: "github",
-      link: "",
+      link: "https://github.com/harshvsri",
     },
     {
       name: "twitter",
-      link: "",
+      link: "https://twitter.com/harshvsri",
     },
     {
       name: "ros",
-      link: "",
+      link: "https://harshsri.bio.link/",
     },
   ];
   return (
@@ -22,7 +22,7 @@ function Footer() {
           <ul className="social-links">
             {socials.map((social, index) => (
               <li key={index} className="social-link list-unstyled">
-                <a className="text-body-secondary" href="#">
+                <a className="text-body-secondary" href={social.link}>
                   <iconify-icon
                     className="small"
                     icon={`devicon:${social.name}`}
