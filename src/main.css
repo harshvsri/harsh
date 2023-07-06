@@ -30,6 +30,9 @@ body {
 
   background-color: var(--dark);
   color: var(--light);
+
+  /* Add 3D shadow effect */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
 
 .skill {
@@ -69,6 +72,10 @@ body {
   color: #212529;
   background-color: var(--light);
 }
+.card-img {
+  aspect-ratio: 18/9;
+  width: 100%;
+}
 .card-buttons {
   display: flex;
   justify-content: space-evenly;
@@ -87,6 +94,9 @@ body {
 
   background-color: var(--dark);
   color: var(--light);
+
+  /* Add 3D shadow effect */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
 
 .contact {
