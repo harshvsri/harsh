@@ -6,6 +6,11 @@ function Work() {
       <div className="work">
         {projects.map((project) => (
           <div className="card">
+            <img
+              src={`./${project.name.toLowerCase()}.png`}
+              className="card-img card-img-top"
+              alt="..."
+            />
             <div className="card-body">
               <h5 className="card-title">{project.name}</h5>
               <p className="card-text">{project.about}</p>
