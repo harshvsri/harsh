@@ -1,11 +1,11 @@
-import { projects } from "./Data";
+import { projects } from "../utils/Data";
 
 function Work() {
   return (
     <>
-      <div className="work">
-        {projects.map((project) => (
-          <div className="card">
+      <div id="work" className="work">
+        {projects.map((project, index) => (
+          <div className="card" key={index}>
             <img
               src={`./${project.name.toLowerCase()}.png`}
               className="card-img card-img-top"
