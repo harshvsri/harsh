@@ -10,8 +10,8 @@ export const skills = [
       "jquery",
       "webpack",
       "typescript",
-      "react",
       "vitejs",
+      "react",
     ],
   },
   {
