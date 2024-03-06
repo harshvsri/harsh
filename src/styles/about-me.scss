@@ -1,20 +1,17 @@
 .about {
   width: 50%;
   margin: auto;
+  border-radius: 1rem;
+  padding: var(--sectionPadding);
+  text-align: left;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: left;
-
-  border-radius: 1rem;
-  padding: var(--sectionPadding);
-
-  background-color: var(--dark);
-  color: var(--light);
 
   p {
-    color: #bebebe;
+    color: var(--muted);
 
     Icon {
       margin: 0rem 0.5rem;
