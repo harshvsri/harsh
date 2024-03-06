@@ -3,12 +3,12 @@ function Home() {
     <>
       <div className="home">
         <div>
-          <p>Hi, my name is</p>
-          <h1>Harsh V Srivastava.</h1>
-          <h1>I build things for the web.</h1>
+          <p>Hi 👋, my name is</p>
+          <h1>HARSH SRIVASTAVA</h1>
+          <p>I build 🧑‍💻 things for the web 🌐.</p>
           <p>
-            I'm a Front End Developer specializing in building <br />
-            (and occasionally designing) exceptional digital web experiences.
+            I'm a Full Stack Developer specializing in building <br />
+            (and occasionally designing) exceptional digital experiences.
           </p>
         </div>
       </div>

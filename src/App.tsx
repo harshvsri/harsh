@@ -1,10 +1,9 @@
-import About from "./components/About";
-import Contact from "./components/Contact";
+import About from "./components/AboutMe";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
-import Navbar from "./components/Navbar";
-import Skill from "./components/Skill";
-import Work from "./components/Work";
+import Navbar from "./components/Header";
+import Skill from "./components/SkillIcons";
+import Work from "./components/Projects";
 
 function App() {
   return (
@@ -14,7 +13,6 @@ function App() {
       <Skill />
       <Work />
       <About />
-      <Contact />
       <Footer />
     </>
   );

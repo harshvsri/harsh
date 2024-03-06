@@ -1,0 +1,30 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding-bottom: 1rem;
+
+  .icon {
+    font-size: 2rem;
+    color: white;
+  }
+
+  .social-links {
+    display: flex;
+    margin: 0;
+    padding: 0.5rem;
+  }
+  .social-link {
+    padding: 0 0.5rem;
+  }
+}
+
+@media (max-width: 50rem) {
+  footer {
+    .icon {
+      font-size: 1.5rem;
+    }
+  }
+}
