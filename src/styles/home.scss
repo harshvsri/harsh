@@ -1,0 +1,29 @@
+.home {
+  h1 {
+    font-size: 5rem;
+    font-weight: 700;
+  }
+  p {
+    color: #bebebe;
+  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  margin: var(--sectionMargin);
+  border-radius: 1rem;
+  padding: var(--sectionPadding);
+
+  background-color: var(--dark);
+  color: var(--light);
+}
+
+@media (max-width: 50rem) {
+  .home {
+    h1 {
+      font-size: 3rem;
+    }
+  }
+}
